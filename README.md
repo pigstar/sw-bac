@@ -7,8 +7,6 @@ Host = ‘device ip address’
 username = ‘username’
 password = ‘password’
 -------------------------------
-
 you can also use crontab to backup config everyday
-
 crontab -e
-01 1 * * 6 /usr/bin/python /root/backup.py
+01 1 * * 6 /usr/bin/python /usr/home/zhuxing/backup.py
